@@ -24,5 +24,5 @@ def user_score():
 
 
 score = randint(1, 100)
-
+get_grade(score)
 main()
