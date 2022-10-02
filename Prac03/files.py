@@ -6,7 +6,7 @@ print(username, file=out_file)
 out_file.close()
 
 name = open("name.txt", 'r')
-username = name.read()
+username = name.read().strip()
 name.close()
 print("Your name is", username)
 
