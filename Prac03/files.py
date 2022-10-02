@@ -18,7 +18,7 @@ print(number1 + number2)
 
 # Is there a way to use one readlines variable instead of using two readline variables to get both numbers and
 # then sum the two numbers and print that sum variable? Apologies if this makes no sense when reading, I will ask
-# in the next practical.
+# in the next practical for more clarity on when to use readlines over readline.
 
 numbers_file = open("numbers.txt", 'r')
 total = 0
