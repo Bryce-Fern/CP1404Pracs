@@ -1,9 +1,11 @@
 def main():
     numbers = []
-    for i in range(5):
+    i = 0
+    while i in range(5):
         try:
             number = int(input("Number: "))
             numbers.append(number)
+            i += 1
         except ValueError:
             print("Invalid input")
 
