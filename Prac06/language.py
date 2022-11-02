@@ -1,5 +1,8 @@
 from Prac06.programming_language import ProgrammingLanguage
-
+"""
+Estimated time: 30m
+Actual time: 40m
+"""
 
 def main():
     python = ProgrammingLanguage("Python", "Dynamic", True, 1991)

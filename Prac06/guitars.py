@@ -1,5 +1,10 @@
 from Prac06.guitar import Guitar
 
+"""
+Estimated time: 30m
+Actual time: 1hr 10m
+"""
+
 
 def main():
     print("My guitars!")

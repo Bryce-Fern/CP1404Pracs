@@ -1,5 +1,10 @@
 from Prac06.guitar import Guitar
 
+"""
+Estimated time: 5m
+Actual time: 9m
+"""
+
 
 def main():
     name = "Gibson L-5 CES"
