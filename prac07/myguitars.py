@@ -5,7 +5,10 @@ class Guitars:
         self.year = year
         self.cost = cost
 
-    def __repr__(self):
+    def __lt__(self, other):
+        return self.year < other.year
+
+    def __str__(self):
         return f"{self.name} first introduced in the year: {self.year}, Cost: ${self.cost}"
 
 
@@ -17,10 +20,10 @@ def run_test():
         parts = line.strip().split(',')
         guitar = Guitars(parts[0], int(parts[1]), (parts[2]))
         guitars.append(guitar)
+        guitars.sort()
     in_file.close()
 
     for guitar in guitars:
-        guitars.sort()
         print(guitar)
 
 
