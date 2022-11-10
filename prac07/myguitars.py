@@ -14,6 +14,13 @@ class Guitars:
 
 def run_test():
     guitars = []
+    name = input("Name: ")
+    while name != "":
+        year = int(input("Year: "))
+        cost = float(input("Cost: "))
+        guitar_to_add = Guitars(name, year, cost)
+        guitars.append(guitar_to_add)
+        name = input("Name: ")
     in_file = open('guitars.csv', 'r')
     in_file.readline()
     for line in in_file:
